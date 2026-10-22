@@ -4,12 +4,15 @@ Landing page del curso **Aicademy**: aprende a crear videos virales con IA, en e
 Se publica en **aicademy.lat**; el curso sigue aparte en **app.aicademy.lat**.
 
 Es un sitio estático: HTML, CSS y JavaScript sin frameworks, sin paso de build y sin dependencias.
+Los colores de la marca están como variables al inicio de `styles.css` (`:root`).
 Este repositorio **no contiene claves ni contraseñas**.
 
 ## Estructura
 
 ```
-index.html        Landing completa (estilos y scripts incluidos en el archivo)
+index.html        Contenido de la landing y bloque de ajustes (window.ANW)
+styles.css        Diseño: colores, tipografía, layout y animaciones
+main.js           Comportamiento: animación del hero, video, contador, precios y botones de Whop
 privacidad.html   Política de privacidad
 terminos.html     Términos y condiciones (incluye "ventas finales, sin reembolsos")
 reembolsos.html   Solo redirige a terminos.html (enlace antiguo)
